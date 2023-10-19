@@ -18,7 +18,7 @@ jobs:
           node-version: '18'
 
       - name: Install jest
-        run: yarn add --save-dev jest
+        run: yarn add jest
 
       - name: Run test
-        run: jest test
+        run: yarn test
